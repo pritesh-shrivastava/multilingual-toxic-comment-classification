@@ -1,6 +1,7 @@
 import config
 import transformers
 import torch.nn as nn
+import torch
 
 
 class BERTBaseUncased(nn.Module):
